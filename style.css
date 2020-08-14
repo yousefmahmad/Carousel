@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.carousel-container {
+  width: 60%;
+  margin: 0 auto;
+  overflow-x: auto;
+  position: relative;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 80%;
+  height: 500px;
+}
+
+.slide {
+  padding: 10px;
+}
+
+#prvBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+#nxtBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  cursor: pointer;
+}
